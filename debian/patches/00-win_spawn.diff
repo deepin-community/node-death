@@ -1,0 +1,14 @@
+Description: Replace the dependency on win-spawn with child_prcess.
+Forwarded: not-needed
+Author: Paolo Greppi <paolo.greppi@libpf.com>
+
+Index: node-death/test/death.test.js
+===================================================================
+--- node-death.orig/test/death.test.js
++++ node-death/test/death.test.js
+@@ -1,4 +1,4 @@
+-var spawn = require('win-spawn')
++var spawn = require('child_process').spawn;
+ var P = require('autoresolve')
+ var testutil = require('testutil')
+ var colors = require('colors')

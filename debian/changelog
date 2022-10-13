@@ -1,0 +1,45 @@
+node-death (1.1.0-2) unstable; urgency=medium
+
+  * team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-death: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Mon, 08 Nov 2021 17:08:29 +0100
+
+node-death (1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requies-Root: no"
+  * Change section to javascript
+  * Add gbp.conf
+  * New upstream version 1.1.0
+  * Use pkg-js-tools auto install
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 13 May 2020 10:43:04 +0200
+
+node-death (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #846202).
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Tue, 29 Nov 2016 11:47:31 +0100

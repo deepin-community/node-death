@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-death-$1/ \
+ https://github.com/jprichardson/node-death/tags .*/archive/.*/v?([\d\.]+).tar.gz

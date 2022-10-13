@@ -1,0 +1,24 @@
+Source: node-death
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-death
+Vcs-Git: https://salsa.debian.org/js-team/node-death.git
+Homepage: https://github.com/jprichardson/node-death
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-death
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Gracefully cleanup on termination
+ Node.js module to centralize the clean-up code and exit
+ gracefully when exceptions are uncaught or on receiving SIGINT
+ and SIGTERM signals.
+ .
+ Node.js is an event-based server-side JavaScript engine.
